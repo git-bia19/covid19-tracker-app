@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import useSWR from "swr";
 import lookup from "country-code-lookup";
-import "./App.scss";
+import "./App.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 mapboxgl.accessToken =
